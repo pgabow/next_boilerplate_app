@@ -42,6 +42,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ![Screenshot 1](/public/shots/shot1.jpg)
 
+![Screenshot 2](/public/shots/shot2.jpg)
+
+![Screenshot 3](/public/shots/shot3.jpg)
+
+![Screenshot 4](/public/shots/shot4.jpg)
+
+![Screenshot 5](/public/shots/shot5.jpg)
+
+![Screenshot 6](/public/shots/shot6.jpg)
+
+![Screenshot 7](/public/shots/shot7.jpg)
+
+![Screenshot 8](/public/shots/shot8.jpg)
+
 
 ### Learn More
 

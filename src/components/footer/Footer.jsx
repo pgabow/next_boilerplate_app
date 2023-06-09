@@ -12,32 +12,33 @@ const Footer = () => {
     <div className={styles.container}>
       <div>©2023 &lt;/&gt; boilerplate</div>
       <div className={styles.social}>
+				{/* вернуться к svg fill */}
         <Image
           src='/assets/mail.svg'
-          width={15}
-          height={15}
-          className={styles.icon}
+          width={20}
+          height={20}
+          className={mode === 'light' ? styles.icon : styles.icon_black}
           alt='Account'
         />
         <Image
           src='/assets/telegram.svg'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Account'
         />
         <Image
           src='/assets/whats-app.svg'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Account'
         />
-        <Image src='/assets/vk.svg' width={15} height={15} className={styles.icon} alt='Account' />
+        <Image src='/assets/vk.svg' width={20} height={20} className={styles.icon} alt='Account' />
         <Image
           src='/assets/youtube.svg'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Account'
         />

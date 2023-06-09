@@ -75,7 +75,7 @@ const Login = ({ url }) => {
         onClick={() => {
           signIn('mailru')
         }}
-        className={styles.button + ' ' + styles.github}
+        className={styles.button}
       >
         Login with MailRu
       </button>
