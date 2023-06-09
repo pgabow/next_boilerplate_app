@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useContext } from 'react'
 import styles from './footer.module.css'
 import Image from 'next/image'
