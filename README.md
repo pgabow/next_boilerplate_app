@@ -1,6 +1,6 @@
 # Next boilerplate full stack app using the Next 13, MongoDB, Next auth
 
-See here - https://s.vercel.app
+See here - https://next-boilerplate-app-ruby.vercel.app
 
 ## Next.js 13 Client/Server components, metadata and search engine optimization (SEO)
 
@@ -13,7 +13,7 @@ npm i
 # or
 yarn install
 ```
-Add your environment variables (NextAuth\MongoDB\GoogleAuth\GithubAuth\TelegramApi)
+Add your environment variables (NextAuth\MongoDB\GoogleAuth\GithubAuth\YandexAuth\VkAuth\MailRuAuth\TelegramApi)
 
 Runs the app in the development mode:
 
@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 | File/Folder  	   									| Primary use    																								|
 | :-------------------------------- | :------------------------------------------------------------ |
-| `.env`				          					| Environment variables (googleAuth\nextAuth\mongoDB)       		|
+| `.env`				          					| Environment variables (googleAuth\nextAuth\mongoDB...)     		|
 | `/public`          			 					| All of our static files																				|
 | `/src/app`				       					| Main source folder client/server api, route files							|
 | `/src/models`			           			| Schema`s MongoDB  						 															  |

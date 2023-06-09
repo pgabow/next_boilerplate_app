@@ -38,35 +38,49 @@ const Login = ({ url }) => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{success ? success : "Welcome Back"}</h1>
+      <h1 className={styles.title}>{success ? success : 'Welcome Back'}</h1>
       <h2 className={styles.subtitle}>Please sign in to see the dashboard.</h2>
 
       <form onSubmit={handleSubmit} className={styles.form}>
-        <input
-          type="text"
-          placeholder="Email"
-          required
-          className={styles.input}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          required
-          className={styles.input}
-        />
+        <input type='text' placeholder='Email' required className={styles.input} />
+        <input type='password' placeholder='Password' required className={styles.input} />
         <button className={styles.button}>Login</button>
         {error && error}
       </form>
       <button
         onClick={() => {
-          signIn("google");
+          signIn('google')
         }}
-        className={styles.button + " " + styles.google}
+        className={styles.button + ' ' + styles.google}
       >
         Login with Google
       </button>
+      <button
+        onClick={() => {
+          signIn('yandex')
+        }}
+        className={styles.button + ' ' + styles.github}
+      >
+        Login with Yandex
+      </button>
+      <button
+        onClick={() => {
+          signIn('vk')
+        }}
+        className={styles.button + ' ' + styles.github}
+      >
+        Login with Vk
+      </button>
+      <button
+        onClick={() => {
+          signIn('mailru')
+        }}
+        className={styles.button + ' ' + styles.github}
+      >
+        Login with MailRu
+      </button>
       <span className={styles.or}>- OR -</span>
-      <Link className={styles.link} href="/dashboard/register">
+      <Link className={styles.link} href='/dashboard/register'>
         Create new account
       </Link>
       {/* <button
@@ -78,7 +92,7 @@ const Login = ({ url }) => {
         Login with Github
       </button> */}
     </div>
-  );
+  )
 };
 
 export default Login;
