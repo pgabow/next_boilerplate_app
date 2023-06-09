@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from './footer.module.css'
 import Image from 'next/image'
 import { ThemeContext } from '@/context/ThemeContext'
